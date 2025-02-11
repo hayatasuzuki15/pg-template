@@ -8,6 +8,7 @@ RUN apt-get update && apt-get install -y \
     gdb \
     make \
     ninja-build \
+    git \
     && rm -rf /var/lib/apt/lists/*
 
 # デフォルトのシェルを bash に
