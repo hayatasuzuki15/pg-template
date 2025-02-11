@@ -1,0 +1,17 @@
+{
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        // ... 既存の拡張機能 ...
+        "golang.go",  // Go言語サポート
+        "golang.go-nightly",  // Go言語サポート（ナイトリービルド）
+        "premparihar.gotestexplorer"  // Goテストエクスプローラー
+      ],
+      "settings": {
+        "go.toolsManagement.checkForUpdates": "local",
+        "go.useLanguageServer": true,
+        "go.gopath": "/go"
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  // ... 既存の設定 ...
+  "customizations": {
+      "vscode": {
+          "extensions": [
+              // ... 既存の拡張機能 ...
+              "bmewburn.vscode-intelephense-client",  // PHP IntelliSense
+              "xdebug.php-debug",  // PHPデバッグ
+              "neilbrayfield.php-docblocker"  // PHPドキュメント
+          ],
+          "settings": {
+              "php.validate.enable": true,
+              "php.suggest.basic": true
+          }
+      }
+  }
+}
